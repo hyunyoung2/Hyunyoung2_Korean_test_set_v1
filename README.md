@@ -45,4 +45,4 @@ I recommend you to use pyvenv(like virtualenv), when you run this python script.
 
  - [Efficient Estimation of Word Representations in Vector Space](Efficient Estimation of Word Representations in Vector Space)
 
-  - [the test set in the paper above](http://www.fit.vutbr.cz/~imikolov/rnnlm/word-test.v1.txt)
+  - [The test set in the paper above](http://www.fit.vutbr.cz/~imikolov/rnnlm/word-test.v1.txt)
