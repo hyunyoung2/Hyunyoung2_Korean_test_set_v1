@@ -31,9 +31,9 @@ def write_a_file(writer, docs):
 
     for line_idx, line_val in enumerate(docs):
         if "//" in line_val:
-            writer.write(line_val+"\n")
+            writer.write(line_val)
         elif ":" in line_val:
-            writer.write(line_val+"\n")
+            writer.write(line_val)
         else:
             split_words = line_val.split()
             print(line_idx)
