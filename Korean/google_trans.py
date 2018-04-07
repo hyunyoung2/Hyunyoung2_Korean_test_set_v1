@@ -12,7 +12,7 @@ import os
 from googletrans import Translator
 
 # Google test set file
-ORIGINAL_FILE_NAME = "word-test.v1.normalized.text"
+ORIGINAL_FILE_NAME = "word-test.v1.normalized.txt"
 OUT_FILE_NAME = "Korean_word_test.v1.txt"
 
 IN_FILE = os.path.join("../English", ORIGINAL_FILE_NAME)
