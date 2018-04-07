@@ -30,6 +30,8 @@ Second, install **googletrans** module to run python script.
 
 I recommend you to use pyvenv(like virtualenv), when you run this python script. 
 
+In my case, I used virtualenv of python3 with **pyvenv env** or **python3 -m venv evn**.
+
 >  python3 google_trans.py
 
 - But If it doesn't work, check the file path and name like input file, 
@@ -39,6 +41,8 @@ I recommend you to use pyvenv(like virtualenv), when you run this python script.
 Finally, running the python script, **google_trans.py**, Check the file,**Korean_word_test_v1.txt** like this:
 
 > vim Korean_word_test_v1.txt
+
+
 
 ## Reference 
 
