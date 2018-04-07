@@ -36,6 +36,9 @@ I recommend you to use pyvenv(like virtualenv), when you run this python script.
 - Currently, this setting is **word_test.v1.normailzed.text** that I used with **normalized.sh**
 - Also, Another error is maybe cause of **googletrans's stability**
 
+Finally, running the python script, **google_trans.py**, Check the file,**Korean_word_test_v1.txt** like this:
+
+> vim Korean_word_test_v1.txt
 
 ## Reference 
 
@@ -43,6 +46,6 @@ I recommend you to use pyvenv(like virtualenv), when you run this python script.
  
  - [googletrans's official site](http://py-googletrans.readthedocs.io/en/latest/)
 
- - [Efficient Estimation of Word Representations in Vector Space](Efficient Estimation of Word Representations in Vector Space)
+ - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781v3)
 
   - [The test set in the paper above](http://www.fit.vutbr.cz/~imikolov/rnnlm/word-test.v1.txt)
