@@ -1,7 +1,11 @@
-# English
+# English 
 
-- Download_test_set.sh : download the original test set of syntactic and semantic qeustion. 
+This folder shows you  collecting the test set for word2vec from some paper. 
 
-- word-test.v1.txt : The original test set. the result of runing **Download_test_set.sh**
+They are saying "you can get the test set from some place"
 
-- word-test.v1.normalized_txt : The resulting test set running **nomalized.sh**
+If I read the paper about word2vec, after find out the data set, I would collect. 
+
+But IF this has problem. feel free to let me know about it. I will delete it.
+
+I hope this helps for people researching word embedding. 
