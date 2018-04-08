@@ -14,7 +14,7 @@ But if you want to Download the orginal test set, after that you want to transla
 
 follow right this: 
 
-First, move under English directory, and then run **Download_test_set.sh**
+First, move under Efficient_Estimation_of_Word_Representations_in_Vector_Space dir in English dir, and then run **Download_test_set.sh**
 
 > ./Download_test_set.sh
 
@@ -22,7 +22,7 @@ First, move under English directory, and then run **Download_test_set.sh**
  
  > ./normalized.sh
  
-Second, install **googletrans** module to run python script. 
+Second, install **googletrans** module to run python script.
 
 > pip3 install googletrans
 
@@ -31,6 +31,8 @@ Second, install **googletrans** module to run python script.
 I recommend you to use pyvenv(like virtualenv), when you run this python script. 
 
 In my case, I used virtualenv of python3 with **pyvenv env** or **python3 -m venv evn**.
+
+After enter the paper directory, run the script as follows:
 
 >  python3 google_trans.py
 
