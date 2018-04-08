@@ -55,12 +55,13 @@ if __name__ == "__main__":
     # But they don't guarantee stability that this module would work properly at all time.
     # Due to stability of this module, I split text into each set of 100 pairs.
     # In my case this works appropriately to my goal to translate my data.
+    # 50 pair is the reason when you are with 100 pair. several response disappears. so I chnaged the 50 pairs
     SPLIT_LIST = list()
     for temp_idx, temp_val in enumerate(TEMP):
         if temp_idx == 0: # first subsete
             temp = list()
             temp.append(temp_val)
-        elif temp_idx % 100 == 0 and temp_idx != 0:
+        elif temp_idx % 50 == 0 and temp_idx != 0:
             SPLIT_LIST.append(temp)
             temp = list()
         elif temp_idx == len(TEMP) -1: # last subset

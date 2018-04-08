@@ -72,13 +72,14 @@ def split_list(temp_list):
     # But they don't guarantee stability that this module would work properly at all time.
     # Due to stability of this module, I split text into each set of 100 pairs.
     # In my case this works appropriately to my goal to translate my data.
+    # 50 pair is the reason when you are with 100 pair. several response disappears. so I chnaged the 50 pairs
     """
     split_list = list()
     for temp_idx, temp_val in enumerate(temp_list):
         if temp_idx == 0: # first subsete
             temp = list()
             temp.append(temp_val)
-        elif temp_idx % 100 == 0 and temp_idx != 0:
+        elif temp_idx % 50 == 0 and temp_idx != 0:
             split_list.append(temp)
             temp = list()
         elif temp_idx == len(temp_list) -1: # last subset
@@ -87,6 +88,7 @@ def split_list(temp_list):
             del temp
         else:
             temp.append(temp_val)
+    print(len(split_list))
     return split_list
 
 
@@ -94,16 +96,19 @@ if __name__ == "__main__":
     print("start to translate.......")
     with open(IN_FILE_1, "r") as fr:
         TEMP = read_a_file(fr)
+    print("Temp 1",  len(TEMP))
+    input("doesn't it right?")
     SPLIT_LIST = split_list(TEMP)
 
     print(SPLIT_LIST[0], len(SPLIT_LIST[0]), len(SPLIT_LIST))
-
+    input("doesn't right")
     with open(OUT_FILE_1, "w") as fw:
         for split_list_idx, split_list_val in enumerate(SPLIT_LIST):
             write_a_file(fw, split_list_val)
 
     with open(IN_FILE_0, "r") as fr:
         TEMP = read_a_file(fr)
+    print("Temp 0",  len(TEMP))
     SPLIT_LIST = split_list(TEMP)
     
     print(SPLIT_LIST[0], len(SPLIT_LIST[0]), len(SPLIT_LIST))
