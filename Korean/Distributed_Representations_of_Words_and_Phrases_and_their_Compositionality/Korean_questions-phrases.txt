@@ -1,0 +1,5 @@
+: newspapers
+: ice_hockey
+: basketball
+: airlines
+: people-companies
