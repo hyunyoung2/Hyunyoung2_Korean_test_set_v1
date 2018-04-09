@@ -9,6 +9,7 @@ Translate them into Korean language for me and someone who want to do this job.
 """
 
 import os
+#import time # time sleep function
 from googletrans import Translator
 
 # Google test set file
@@ -17,7 +18,7 @@ OUT_FILE_NAME = "Korean_word_test.v1.txt"
 
 IN_FILE = os.path.join("../../English/Efficient_Estimation_of_Word_Representations_in_Vector_Space", ORIGINAL_FILE_NAME)
 OUT_FILE = os.path.join(os.getcwd(), OUT_FILE_NAME)
-
+LINES = 0
 
 def read_a_file(reader):
     """Read the file, word_test.v1.txt."""
@@ -26,17 +27,23 @@ def read_a_file(reader):
 
 def write_a_file(writer, docs):
     """write the resulting of reading word_test.v1.txt"""
+    global LINES
     # Instannce of google's translatoer
     translator = Translator()
 
     for line_idx, line_val in enumerate(docs):
         if "//" in line_val:
             writer.write(line_val)
+            print("Total Lines: {0}, partial lines: {1}, char: {2}".format(LINES, line_idx, line_val))
+            LINES +=1
         elif ":" in line_val:
             writer.write(line_val)
+            print("Total Lines: {0}, partial lines: {1}, char: {2}".format(LINES, line_idx, line_val))
+            LINES +=1
         else:
             split_words = line_val.split()
-            print(line_idx)
+            print("Total Lines: {0}, partial lines: {1}, char: {2}".format(LINES, line_idx, line_val))
+            LINES +=1
             for word_idx, word_val in enumerate(split_words):
                 print(word_val)
                 translation = translator.translate(word_val, src='en', dest='ko')
@@ -45,6 +52,7 @@ def write_a_file(writer, docs):
                     writer.write(translation.text+"\t")
                 else:
                     writer.write(translation.text+"\n")
+                #time.sleep(5)
 
 if __name__ == "__main__":
     print("start to translate.......")
@@ -62,6 +70,7 @@ if __name__ == "__main__":
             temp = list()
             temp.append(temp_val)
         elif temp_idx % 50 == 0 and temp_idx != 0:
+            temp.append(temp_val)
             SPLIT_LIST.append(temp)
             temp = list()
         elif temp_idx == len(TEMP) -1: # last subset
@@ -70,7 +79,7 @@ if __name__ == "__main__":
             del temp
         else:
             temp.append(temp_val)
-
+    LINES = 0
     with open(OUT_FILE, "w") as fw:
         for split_list_idx, split_list_val in enumerate(SPLIT_LIST):
             write_a_file(fw, split_list_val)

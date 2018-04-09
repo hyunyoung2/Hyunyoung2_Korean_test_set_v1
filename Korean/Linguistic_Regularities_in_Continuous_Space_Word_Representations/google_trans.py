@@ -9,6 +9,7 @@ Translate them into Korean language for me and someone who want to do this job.
 """
 
 import os
+#import time # time sleep function 
 from googletrans import Translator
 
 # Google test set file
@@ -19,7 +20,7 @@ IN_FILE_1 = os.path.join("../../English/Linguistic_Regularities_in_Continuous_Sp
 IN_FILE_0 = os.path.join("../../English/Linguistic_Regularities_in_Continuous_Space_Word_Representations", ORIGINAL_FILE_NAME[0])
 OUT_FILE_1 = os.path.join(os.getcwd(), OUT_FILE_NAME[1])
 OUT_FILE_0 = os.path.join(os.getcwd(), OUT_FILE_NAME[0])
-
+LINES = 0
 def read_a_file(reader):
     """Read the file, word_test.v1.txt."""
     docs = [x for x in reader.readlines() if x != "\n"]
@@ -27,17 +28,23 @@ def read_a_file(reader):
 
 def write_a_file(writer, docs):
     """write the resulting translation of word_relationship.questions"""
+    global LINES
     # Instannce of google's translatoer
     translator = Translator()
 
     for line_idx, line_val in enumerate(docs):
         if "//" in line_val:
             writer.write(line_val)
+            print("Total Lines: {0}, line_idx: {1}, char: {2}".format(LINES, line_idx, line_val))
+            LINES += 1
         elif ":" in line_val:
             writer.write(line_val)
+            print("Total Lines: {0}, line_idx: {1}, char: {2}".format(LINES, line_idx, line_val))
+            LINES += 1
         else:
             split_words = line_val.split()
-            print(line_idx)
+            print("Total Lines: {0}, line_idx: {1}, char: {2}".format(LINES, line_idx, line_val))
+            LINES += 1
             for word_idx, word_val in enumerate(split_words):
                 print(word_val)
                 translation = translator.translate(word_val, src='en', dest='ko')
@@ -46,15 +53,18 @@ def write_a_file(writer, docs):
                     writer.write(translation.text+"\t")
                 else:
                     writer.write(translation.text+"\n")
+                #time.sleep(5)
 
 def write_a_file_with_out_file_0(writer, docs):
     """write the resulting translation of word_relationship.questions"""
+    global LINES
     # Instannce of google's translatoer
     translator = Translator()
    
     for line_idx, line_val in enumerate(docs):
         split_words = line_val.split()
-        print(line_idx)
+        print("Total Lines:{0}, line_idx:{1}".format(LINES, line_idx))
+        LINES += 1
         for word_idx, word_val in enumerate(split_words):
             print(word_val)
             if word_idx == 0: 
@@ -63,7 +73,7 @@ def write_a_file_with_out_file_0(writer, docs):
                 translation = translator.translate(word_val, src='en', dest='ko')
                 print(translation)
                 writer.write(translation.text+"\n")
-
+            #time.sleep(5)
 
 def split_list(temp_list):
     """split function turning the list into each 100
@@ -80,6 +90,7 @@ def split_list(temp_list):
             temp = list()
             temp.append(temp_val)
         elif temp_idx % 50 == 0 and temp_idx != 0:
+            temp.append(temp_val)
             split_list.append(temp)
             temp = list()
         elif temp_idx == len(temp_list) -1: # last subset
@@ -97,11 +108,11 @@ if __name__ == "__main__":
     with open(IN_FILE_1, "r") as fr:
         TEMP = read_a_file(fr)
     print("Temp 1",  len(TEMP))
-    input("doesn't it right?")
     SPLIT_LIST = split_list(TEMP)
 
     print(SPLIT_LIST[0], len(SPLIT_LIST[0]), len(SPLIT_LIST))
-    input("doesn't right")
+     
+    LINES = 0
     with open(OUT_FILE_1, "w") as fw:
         for split_list_idx, split_list_val in enumerate(SPLIT_LIST):
             write_a_file(fw, split_list_val)
@@ -111,6 +122,7 @@ if __name__ == "__main__":
     print("Temp 0",  len(TEMP))
     SPLIT_LIST = split_list(TEMP)
     
+    LINES = 0
     print(SPLIT_LIST[0], len(SPLIT_LIST[0]), len(SPLIT_LIST))
     with open(OUT_FILE_0, "w") as fw:
         for split_list_idx, split_list_val in enumerate(SPLIT_LIST):

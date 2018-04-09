@@ -98,6 +98,7 @@ JJ_JJR	더 부드러운
 JJR_JJ	부드러운
 JJ_JJS	상냥한
 JJS_JJ	부드러운
+JJS_JJR	더 부드러운
 JJR_JJS	상냥한
 JJ_JJR	더 짧은
 JJR_JJ	짧은
@@ -197,6 +198,7 @@ JJS_JJR	더 넓은
 JJR_JJS	가장 넓은
 JJ_JJR	사기꾼
 JJR_JJ	실제적 지식
+JJ_JJS	사비 에스트
 JJS_JJ	실제적 지식
 JJS_JJR	사기꾼
 JJR_JJS	사비 에스트
@@ -296,6 +298,7 @@ JJ_JJS	가장 높은
 JJS_JJ	긴
 JJS_JJR	키가 큰
 JJR_JJS	가장 높은
+JJ_JJR	유치원
 JJR_JJ	종류
 JJ_JJS	친절한
 JJS_JJ	종류
@@ -395,6 +398,7 @@ JJ_JJR	더 우스운
 JJR_JJ	이상한
 JJ_JJS	우스운
 JJS_JJ	이상한
+JJS_JJR	더 우스운
 JJR_JJS	우스운
 JJ_JJR	좋네요
 JJR_JJ	좋은
@@ -494,6 +498,7 @@ JJS_JJR	더 공정한
 JJR_JJS	공정한
 JJ_JJR	현명한
 JJR_JJ	슬기로운
+JJ_JJS	현명한
 JJS_JJ	슬기로운
 JJS_JJR	현명한
 JJR_JJS	현명한
@@ -593,6 +598,7 @@ JJ_JJS	가장 쉬운
 JJS_JJ	쉬운
 JJS_JJR	더 쉬운
 JJR_JJS	가장 쉬운
+JJ_JJR	거친
 JJR_JJ	거칠게
 JJ_JJS	거친
 JJS_JJ	거칠게
@@ -692,6 +698,7 @@ JJ_JJR	더 맛있는
 JJR_JJ	맛좋은
 JJ_JJS	가장 맛있는
 JJS_JJ	맛좋은
+JJS_JJR	더 맛있는
 JJR_JJS	가장 맛있는
 JJ_JJR	좋네요
 JJR_JJ	좋은
@@ -791,6 +798,7 @@ JJS_JJR	더 큰
 JJR_JJS	가장 큰
 JJ_JJR	더 까다로운
 JJR_JJ	교활한
+JJ_JJS	가장 까다로운
 JJS_JJ	교활한
 JJS_JJR	더 까다로운
 JJR_JJS	가장 까다로운
@@ -890,6 +898,7 @@ JJ_JJS	가장 친절한
 JJS_JJ	친한
 JJS_JJR	더 우호적 인
 JJR_JJS	가장 친절한
+JJ_JJR	더 높은
 JJR_JJ	높은
 JJ_JJS	제일 높은
 JJS_JJ	높은
@@ -989,6 +998,7 @@ JJ_JJR	더 얇은
 JJR_JJ	날씬한
 JJ_JJS	가장 얇은
 JJS_JJ	날씬한
+JJS_JJR	더 얇은
 JJR_JJS	가장 얇은
 JJ_JJR	거친
 JJR_JJ	거칠게
@@ -1088,6 +1098,7 @@ JJS_JJR	신입생
 JJR_JJS	가장 신선한
 JJ_JJR	대담한
 JJR_JJ	대담한
+JJ_JJS	가장 대담한
 JJS_JJ	대담한
 JJS_JJR	대담한
 JJR_JJS	가장 대담한
@@ -1187,6 +1198,7 @@ JJ_JJS	가장 큰
 JJS_JJ	큰
 JJS_JJR	더 큰
 JJR_JJS	가장 큰
+JJ_JJR	더 부자 인
 JJR_JJ	풍부한
 JJ_JJS	가장 부유 한
 JJS_JJ	풍부한
@@ -1286,6 +1298,7 @@ JJ_JJR	더 부드러운
 JJR_JJ	부드러운
 JJ_JJS	상냥한
 JJS_JJ	부드러운
+JJS_JJR	더 부드러운
 JJR_JJS	상냥한
 JJ_JJR	더 강하다
 JJR_JJ	거대한
@@ -1385,6 +1398,7 @@ JJS_JJR	더 비싼
 JJR_JJS	가장 피가 나는
 JJ_JJR	더 젊은
 JJR_JJ	젊은
+JJ_JJS	최연소자
 JJS_JJ	젊은
 JJS_JJR	더 젊은
 JJR_JJS	최연소자
@@ -1484,6 +1498,7 @@ JJ_JJS	가장 깊은
 JJS_JJ	깊은
 JJS_JJR	더 깊은
 JJR_JJS	가장 깊은
+JJ_JJR	더 새로운
 JJR_JJ	새로운
 JJ_JJS	최신의
 JJS_JJ	새로운
@@ -1583,6 +1598,7 @@ JJ_JJR	거룻배
 JJR_JJ	빛
 JJ_JJS	가장 가벼운
 JJS_JJ	빛
+JJS_JJR	거룻배
 JJR_JJS	가장 가벼운
 JJ_JJR	더 부드러운
 JJR_JJ	부드러운
@@ -1682,6 +1698,7 @@ JJS_JJR	더 가난한
 JJR_JJS	가난한
 JJ_JJR	느린
 JJR_JJ	느린
+JJ_JJS	가장 느린
 JJS_JJ	느린
 JJS_JJR	느린
 JJR_JJS	가장 느린
@@ -1781,6 +1798,7 @@ JJ_JJS	가장 까다로운
 JJS_JJ	교활한
 JJS_JJR	더 까다로운
 JJR_JJS	가장 까다로운
+JJ_JJR	더 맛있는
 JJR_JJ	맛좋은
 JJ_JJS	가장 맛있는
 JJS_JJ	맛좋은
@@ -1880,6 +1898,7 @@ JJ_JJR	더 예쁘다
 JJR_JJ	예쁜
 JJ_JJS	가장 예쁜
 JJS_JJ	예쁜
+JJS_JJR	더 예쁘다
 JJR_JJS	가장 예쁜
 JJ_JJR	더 좁은
 JJR_JJ	제한된
@@ -1979,6 +1998,7 @@ JJS_JJR	더 우호적 인
 JJR_JJS	가장 친절한
 JJ_JJR	더 큰
 JJR_JJ	큰
+JJ_JJS	가장 큰
 JJS_JJ	큰
 JJS_JJR	더 큰
 JJR_JJS	가장 큰
@@ -2078,6 +2098,7 @@ JJ_JJS	가장 까다로운
 JJS_JJ	교활한
 JJS_JJR	더 까다로운
 JJR_JJS	가장 까다로운
+JJ_JJR	더 큰
 JJR_JJ	큰
 JJ_JJS	가장 큰
 JJS_JJ	큰
@@ -2177,6 +2198,7 @@ JJ_JJR	희석제
 JJR_JJ	얇은
 JJ_JJS	가장 얇은
 JJS_JJ	얇은
+JJS_JJR	희석제
 JJR_JJS	가장 얇은
 JJ_JJR	더 공정한
 JJR_JJ	공정한
@@ -2276,6 +2298,7 @@ JJS_JJR	희박한
 JJR_JJS	가장 희박한
 JJ_JJR	더 가까운
 JJR_JJ	닫기
+JJ_JJS	가장 가까운
 JJS_JJ	닫기
 JJS_JJR	더 가까운
 JJR_JJS	가장 가까운
@@ -2375,6 +2398,7 @@ JJ_JJS	가장 까다로운
 JJS_JJ	추잡한
 JJS_JJR	더러운
 JJR_JJS	가장 까다로운
+JJ_JJR	더 얇은
 JJR_JJ	날씬한
 JJ_JJS	가장 얇은
 JJS_JJ	날씬한
@@ -2474,6 +2498,7 @@ JJ_JJR	더 부자 인
 JJR_JJ	풍부한
 JJ_JJS	가장 부유 한
 JJS_JJ	풍부한
+JJS_JJR	더 부자 인
 JJR_JJS	가장 부유 한
 JJ_JJR	더 빠른
 JJR_JJ	가장 빠른
@@ -2573,6 +2598,7 @@ JJS_JJR	확고한
 JJR_JJS	확실한
 JJ_JJR	더 부드러운
 JJR_JJ	부드러운
+JJ_JJS	상냥한
 JJS_JJ	부드러운
 JJS_JJR	더 부드러운
 JJR_JJS	상냥한
@@ -2672,6 +2698,7 @@ JJ_JJS	가장 짧은
 JJS_JJ	짧은
 JJS_JJR	더 짧은
 JJR_JJS	가장 짧은
+JJ_JJR	소리가 큰
 JJR_JJ	화려한
 JJ_JJS	시끄러운
 JJS_JJ	화려한
@@ -2771,6 +2798,7 @@ JJ_JJR	싼
 JJR_JJ	싼
 JJ_JJS	가장 저렴한
 JJS_JJ	싼
+JJS_JJR	싼
 JJR_JJS	가장 저렴한
 JJ_JJR	더 단단한
 JJR_JJ	단단한
@@ -2870,6 +2898,7 @@ JJS_JJR	더 좁은
 JJR_JJS	가장 좁은
 JJ_JJR	청소기
 JJR_JJ	깨끗한
+JJ_JJS	가장 깨끗한
 JJS_JJ	깨끗한
 JJS_JJR	청소기
 JJR_JJS	가장 깨끗한
@@ -2969,6 +2998,7 @@ JJ_JJS	현명한
 JJS_JJ	슬기로운
 JJS_JJR	현명한
 JJR_JJS	현명한
+NN_NNS	법률
 NNS_NN	법
 NN_NNS	제작품
 NNS_NN	생성물
@@ -3068,6 +3098,7 @@ NN_NNS	여러 떼
 NNS_NN	그룹
 NN_NNS	당국
 NNS_NN	권위
+NN_NNS	요금
 NNS_NN	율
 NN_NNS	변화들
 NNS_NN	변화
@@ -3167,6 +3198,7 @@ NN_NNS	불화
 NNS_NN	달러
 NN_NNS	일
 NNS_NN	일
+NN_NNS	법률
 NNS_NN	법
 NN_NNS	표준
 NNS_NN	표준
@@ -3266,6 +3298,7 @@ NN_NNS	처지
 NNS_NN	관계
 NN_NNS	스포츠
 NNS_NN	스포츠
+NN_NNS	사람들
 NNS_NN	사람
 NN_NNS	시스템
 NNS_NN	체계
@@ -3365,6 +3398,7 @@ NN_NNS	남자
 NNS_NN	남자
 NN_NNS	관리들
 NNS_NN	공무원
+NN_NNS	종업원
 NNS_NN	종업원
 NN_NNS	약제
 NNS_NN	약
@@ -3464,6 +3498,7 @@ NN_NNS	변화들
 NNS_NN	변화
 NN_NNS	은혜
 NNS_NN	이익
+NN_NNS	서비스
 NNS_NN	서비스
 NN_NNS	투자자
 NNS_NN	투자자
@@ -3563,6 +3598,7 @@ NN_NNS	예술가들
 NNS_NN	예술가
 NN_NNS	자동차
 NNS_NN	차
+NN_NNS	약제
 NNS_NN	약
 NN_NNS	일
 NNS_NN	일
@@ -3662,6 +3698,7 @@ NN_NNS	일
 NNS_NN	일
 NN_NNS	자동차
 NNS_NN	차
+NN_NNS	어린이
 NNS_NN	어린이
 NN_NNS	약제
 NNS_NN	약
@@ -3761,6 +3798,7 @@ NN_NNS	노력
 NNS_NN	노력
 NN_NNS	번호
 NNS_NN	번호
+NN_NNS	삶
 NNS_NN	생명
 NN_NNS	규칙들
 NNS_NN	규칙
@@ -3860,6 +3898,7 @@ NN_NNS	운영
 NNS_NN	조작
 NN_NNS	부모님
 NNS_NN	부모의
+NN_NNS	윤곽
 NNS_NN	선
 NN_NNS	번호
 NNS_NN	번호
@@ -3959,6 +3998,7 @@ NN_NNS	시민
 NNS_NN	시민
 NN_NNS	가족들
 NNS_NN	가족
+NN_NNPOS	은행
 NNPOS_NN	은행
 NN_NNPOS	소년들
 NNPOS_NN	소년
@@ -4058,6 +4098,7 @@ NN_NNPOS	학교
 NNPOS_NN	학교
 NN_NNPOS	밴드
 NNPOS_NN	밴드
+NN_NNPOS	명
 NNPOS_NN	사람
 NN_NNPOS	영화의
 NNPOS_NN	필름
@@ -4157,6 +4198,7 @@ NN_NNPOS	여자애
 NNPOS_NN	소녀
 NN_NNPOS	세계의
 NNPOS_NN	세계
+NN_NNPOS	은행
 NNPOS_NN	은행
 NN_NNPOS	환자의
 NNPOS_NN	환자
@@ -4256,6 +4298,7 @@ NN_NNPOS	주말의
 NNPOS_NN	주말
 NN_NNPOS	모두의
 NNPOS_NN	각자 모두
+NN_NNPOS	민족 국가
 NNPOS_NN	민족
 NN_NNPOS	불화
 NNPOS_NN	달러
@@ -4355,6 +4398,7 @@ NN_NNPOS	가족의
 NNPOS_NN	가족
 NN_NNPOS	회사의
 NNPOS_NN	회사
+NN_NNPOS	아이의
 NNPOS_NN	어린이
 NN_NNPOS	피해자
 NNPOS_NN	희생자
@@ -4454,6 +4498,7 @@ NN_NNPOS	영화의
 NNPOS_NN	필름
 NN_NNPOS	주지사
 NNPOS_NN	지사
+NN_NNPOS	시장
 NNPOS_NN	시장
 NN_NNPOS	저녁
 NNPOS_NN	저녁
@@ -4553,6 +4598,7 @@ NN_NNPOS	의사의
 NNPOS_NN	의사
 NN_NNPOS	배심원 단
 NNPOS_NN	배심
+NN_NNPOS	피해자
 NNPOS_NN	희생자
 NN_NNPOS	세계의
 NNPOS_NN	세계
@@ -4652,6 +4698,7 @@ NN_NNPOS	세계의
 NNPOS_NN	세계
 NN_NNPOS	배심원 단
 NNPOS_NN	배심
+NN_NNPOS	연령
 NNPOS_NN	년
 NN_NNPOS	피해자
 NNPOS_NN	희생자
@@ -4751,6 +4798,7 @@ NN_NNPOS	남자의
 NNPOS_NN	남자
 NN_NNPOS	인생의
 NNPOS_NN	생명
+NN_NNPOS	석사
 NNPOS_NN	석사
 NN_NNPOS	프로젝트
 NNPOS_NN	계획
@@ -4850,6 +4898,7 @@ NN_NNPOS	역의
 NNPOS_NN	역
 NN_NNPOS	지역
 NNPOS_NN	지역
+NN_NNPOS	건물
 NNPOS_NN	건물
 NN_NNPOS	인생의
 NNPOS_NN	생명
@@ -4949,6 +4998,7 @@ NN_NNPOS	놀다
 NNPOS_NN	놀이
 NN_NNPOS	노동 조합
 NNPOS_NN	노동 조합
+VB_VBD	반환 된
 VBD_VB	반환
 VB_VBZ	보고
 VBZ_VB	반환
@@ -5048,6 +5098,7 @@ VB_VBD	제거 된
 VBD_VB	죽이다
 VB_VBZ	제거하다
 VBZ_VB	죽이다
+VBZ_VBD	제거 된
 VBD_VBZ	제거하다
 VB_VBD	생각
 VBD_VB	생각한다
@@ -5147,6 +5198,7 @@ VBZ_VBD	연주 한
 VBD_VBZ	연극
 VB_VBD	일어난
 VBD_VB	우연히 있다
+VB_VBZ	일이
 VBZ_VB	우연히 있다
 VBZ_VBD	일어난
 VBD_VBZ	일이
@@ -5246,6 +5298,7 @@ VB_VBZ	줄이다
 VBZ_VB	줄이다
 VBZ_VBD	줄인
 VBD_VBZ	줄이다
+VB_VBD	펼친
 VBD_VB	넓히다
 VB_VBZ	확장하다
 VBZ_VB	넓히다
@@ -5345,6 +5398,7 @@ VB_VBD	개선 된
 VBD_VB	돌리다
 VB_VBZ	개선하다
 VBZ_VB	돌리다
+VBZ_VBD	개선 된
 VBD_VBZ	개선하다
 VB_VBD	필수
 VBD_VB	요구하다
@@ -5444,6 +5498,7 @@ VBZ_VBD	포함 된
 VBD_VBZ	포함하다
 VB_VBD	피하는
 VBD_VB	기피
+VB_VBZ	회피하다
 VBZ_VB	기피
 VBZ_VBD	피하는
 VBD_VBZ	회피하다
@@ -5543,6 +5598,7 @@ VB_VBZ	간다
 VBZ_VB	가기
 VBZ_VBD	갔다
 VBD_VBZ	간다
+VB_VBD	반환 된
 VBD_VB	반환
 VB_VBZ	보고
 VBZ_VB	반환
@@ -5642,6 +5698,7 @@ VB_VBD	살았던
 VBD_VB	살고 있다
 VB_VBZ	삶
 VBZ_VB	살고 있다
+VBZ_VBD	살았던
 VBD_VBZ	삶
 VB_VBD	필수
 VBD_VB	요구하다
@@ -5741,6 +5798,7 @@ VBZ_VBD	보관 된
 VBD_VBZ	유지하다
 VB_VBD	봉사 한
 VBD_VB	서브
+VB_VBZ	봉사하다
 VBZ_VB	서브
 VBZ_VBD	봉사 한
 VBD_VBZ	봉사하다
@@ -5840,6 +5898,7 @@ VB_VBZ	배우다
 VBZ_VB	배우다
 VBZ_VBD	배운
 VBD_VBZ	배우다
+VB_VBD	만든
 VBD_VB	하다
 VB_VBZ	~을 만든다
 VBZ_VB	하다
@@ -5939,6 +5998,7 @@ VB_VBD	믿었다
 VBD_VB	믿다
 VB_VBZ	믿는다
 VBZ_VB	믿다
+VBZ_VBD	믿었다
 VBD_VBZ	믿는다
 VB_VBD	반환 된
 VBD_VB	반환
@@ -6038,6 +6098,7 @@ VBZ_VBD	논의 된
 VBD_VBZ	토론하다
 VB_VBD	팔린
 VBD_VB	팔다
+VB_VBZ	팔다
 VBZ_VB	팔다
 VBZ_VBD	팔린
 VBD_VBZ	팔다
@@ -6137,6 +6198,7 @@ VB_VBZ	있다
 VBZ_VB	있다
 VBZ_VBD	있었다
 VBD_VBZ	있다
+VB_VBD	보았다
 VBD_VB	보기
 VB_VBZ	외모
 VBZ_VB	보기
@@ -6236,6 +6298,7 @@ VB_VBD	제거 된
 VBD_VB	죽이다
 VB_VBZ	제거하다
 VBZ_VB	죽이다
+VBZ_VBD	제거 된
 VBD_VBZ	제거하다
 VB_VBD	결정적인
 VBD_VB	결정하다
@@ -6335,6 +6398,7 @@ VBZ_VBD	합류 한
 VBD_VBZ	조인
 VB_VBD	보았다
 VBD_VB	만나다
+VB_VBZ	본다
 VBZ_VB	만나다
 VBZ_VBD	보았다
 VBD_VBZ	본다
@@ -6434,6 +6498,7 @@ VB_VBZ	말한다
 VBZ_VB	말하다
 VBZ_VBD	말했다
 VBD_VBZ	말한다
+VB_VBD	원
 VBD_VB	승리
 VB_VBZ	이기다
 VBZ_VB	승리
@@ -6533,6 +6598,7 @@ VB_VBD	생산 된
 VBD_VB	생기게 하다
 VB_VBZ	생산하다
 VBZ_VB	생기게 하다
+VBZ_VBD	생산 된
 VBD_VBZ	생산하다
 VB_VBD	제거 된
 VBD_VB	죽이다
@@ -6632,6 +6698,7 @@ VBZ_VBD	만난
 VBD_VBZ	만나다
 VB_VBD	익숙한
 VBD_VB	용도
+VB_VBZ	용도
 VBZ_VB	용도
 VBZ_VBD	익숙한
 VBD_VBZ	용도
@@ -6731,6 +6798,7 @@ VB_VBZ	봉사하다
 VBZ_VB	서브
 VBZ_VBD	봉사 한
 VBD_VBZ	봉사하다
+VB_VBD	살았던
 VBD_VB	살고 있다
 VB_VBZ	삶
 VBZ_VB	살고 있다
@@ -6830,6 +6898,7 @@ VB_VBD	남은
 VBD_VB	남아있는
 VB_VBZ	유적
 VBZ_VB	남아있는
+VBZ_VBD	남은
 VBD_VBZ	유적
 VB_VBD	공부 한
 VBD_VB	연구
@@ -6929,6 +6998,7 @@ VBZ_VBD	배운
 VBD_VBZ	배우다
 VB_VBD	보관 된
 VBD_VB	유지
+VB_VBZ	유지하다
 VBZ_VB	유지
 VBZ_VBD	보관 된
 VBD_VBZ	유지하다
@@ -7028,6 +7098,7 @@ VB_VBZ	봉사하다
 VBZ_VB	서브
 VBZ_VBD	봉사 한
 VBD_VBZ	봉사하다
+VB_VBD	그랬다.
 VBD_VB	해야 할 것
 VB_VBZ	~하다
 VBZ_VB	해야 할 것
@@ -7127,6 +7198,7 @@ VB_VBD	보호 된
 VBD_VB	보호
 VB_VBZ	보호하다
 VBZ_VB	보호
+VBZ_VBD	보호 된
 VBD_VBZ	보호하다
 VB_VBD	포함 된
 VBD_VB	포함
@@ -7226,6 +7298,7 @@ VBZ_VBD	보존 된
 VBD_VBZ	보존 식품
 VB_VBD	개발 된
 VBD_VB	나타나게 하다
+VB_VBZ	발전하다
 VBZ_VB	나타나게 하다
 VBZ_VBD	개발 된
 VBD_VBZ	발전하다
@@ -7325,6 +7398,7 @@ VB_VBZ	제안
 VBZ_VB	제공
 VBZ_VBD	제안 된
 VBD_VBZ	제안
+VB_VBD	믿었다
 VBD_VB	믿다
 VB_VBZ	믿는다
 VBZ_VB	믿다
@@ -7424,6 +7498,7 @@ VB_VBD	보았다
 VBD_VB	보기
 VB_VBZ	외모
 VBZ_VB	보기
+VBZ_VBD	보았다
 VBD_VBZ	외모
 VB_VBD	되었다
 VBD_VB	지다
@@ -7523,6 +7598,7 @@ VBZ_VBD	시작한
 VBD_VBZ	시작하다
 VB_VBD	제거 된
 VBD_VB	죽이다
+VB_VBZ	제거하다
 VBZ_VB	죽이다
 VBZ_VBD	제거 된
 VBD_VBZ	제거하다
@@ -7622,6 +7698,7 @@ VB_VBZ	생각해.
 VBZ_VB	생각한다
 VBZ_VBD	생각
 VBD_VBZ	생각해.
+VB_VBD	해결 된
 VBD_VB	결의
 VB_VBZ	해결하다
 VBZ_VB	결의
@@ -7721,6 +7798,7 @@ VB_VBD	알고 있었다
 VBD_VB	알고있다
 VB_VBZ	알고있다
 VBZ_VB	알고있다
+VBZ_VBD	알고 있었다
 VBD_VBZ	알고있다
 VB_VBD	허용 된
 VBD_VB	허용하다
@@ -7820,6 +7898,7 @@ VBZ_VBD	공부 한
 VBD_VBZ	연구
 VB_VBD	뒤따른
 VBD_VB	따르다
+VB_VBZ	따르다
 VBZ_VB	따르다
 VBZ_VBD	뒤따른
 VBD_VBZ	따르다

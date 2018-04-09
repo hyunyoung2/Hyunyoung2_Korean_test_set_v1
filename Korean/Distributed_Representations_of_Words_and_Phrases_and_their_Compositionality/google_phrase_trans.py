@@ -64,6 +64,7 @@ if __name__ == "__main__":
             temp = list()
             temp.append(temp_val)
         elif temp_idx % 50 == 0 and temp_idx != 0:
+            temp.append(temp_val)
             SPLIT_LIST.append(temp)
             temp = list()
         elif temp_idx == len(TEMP) -1: # last subset
